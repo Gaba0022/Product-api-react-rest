@@ -1,55 +1,51 @@
-# Prerequisites
-*.d
+# Build directories
+bin/
+obj/
+out/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Rider IDE
+.idea/
 
-# Precompiled Headers
-*.gch
-*.pch
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+artifacts/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# DotNet CLI
+*.dotnet/
+*.pid
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Logs
+*.log
+logs/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Test results
+TestResults/
+*.trx
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# debug information files
-*.dwo
+# ASP.NET Core specific
+appsettings.Development.json
+launchSettings.json
+secrets.json
+
+# EF Core Migrations - usually versioned, so not ignored
+# Migrations/
