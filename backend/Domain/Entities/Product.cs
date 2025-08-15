@@ -1,19 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace backend.Models;
+namespace backend.Domain.Entities;
 
-public class Produtos
+public class Product
 {
     [Key]
     [Required(ErrorMessage = "The id is required")]
     public int Id { get; set; }
 
     [Required(ErrorMessage = "The nome is required")]
-    public string Nome { get; set; }
+    public string Name { get; set; }
 
     [Required(ErrorMessage = "The preco is required")]
-    public float Preco {  get; set; }
+    public float Price { get; set; }
 
     [Required(ErrorMessage = "The categoria is required")]
-    public string Categoria { get; set; }
+    public string Category { get; set; }
 }

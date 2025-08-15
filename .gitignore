@@ -11,7 +11,7 @@ out/
 *.userosscache
 *.sln.docstates
 
-# Rider IDE
+# JetBrains Rider
 .idea/
 
 # NuGet packages

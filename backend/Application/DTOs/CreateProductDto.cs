@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace backend.Data.DTOs;
+namespace backend.Application.DTOs;
 
-public class CriarProdutoDTO
+public class CreateProductDto
 {
     [Required(ErrorMessage = "The nome is required")]
-    public string Nome { get; set; }
+    public string Name { get; set; }
 
     [Required(ErrorMessage = "The preco is required")]
-    public float Preco { get; set; }
+    public float Price { get; set; }
 
     [Required(ErrorMessage = "The categoria is required")]
-    public string Categoria { get; set; }
+    public string Category { get; set; }
 }
