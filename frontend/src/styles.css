@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.home-container,
+.page-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.button-group button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 240px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.product-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.product-table th {
+  background-color: #007bff;
+  color: white;
+}

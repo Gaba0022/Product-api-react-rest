@@ -1,4 +1,4 @@
-# Build directories
+# Build directories (backend)
 bin/
 obj/
 out/
@@ -49,3 +49,10 @@ secrets.json
 
 # EF Core Migrations - usually versioned, so not ignored
 # Migrations/
+
+# Frontend - keep everything inside the frontend folder
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.env
+/frontend/.vite/
